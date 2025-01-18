@@ -1,0 +1,88 @@
+.input--tag{
+    background: transparent;
+    outline:none ;
+    border-bottom:2px solid black;
+    font-family: "Frank Ruhl Libre", serif;
+    color:rgb(223, 235, 237);
+    font-size: 1.8rem;
+}
+.input--tag::placeholder{
+    font-family: "Frank Ruhl Libre", serif;
+    color:rgb(223, 235, 237);
+    text-align: center;
+}
+.popup--display{
+    position:fixed;
+    top:0;
+    left:0;
+    width: 80vw;
+    margin-left: 10vw;
+    height:80vh;
+    margin-top:10vh;
+    justify-content: center;
+    backdrop-filter: blur(7px);
+    background-color: rgba(0, 0, 0, 0.527);
+    display: flex;
+    color:white;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.column {
+    float: left;
+    width: 28%;
+    margin-top:2%;
+    margin-bottom:2%;
+    margin-left:4%;
+    height:180px;
+  }
+  
+
+
+  .row {
+    margin: 0 -5px;
+    height:460px;
+    overflow-y: auto;
+}
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+ 
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    opacity:0.7;
+    background-color:  rgba(0, 0, 0, 0.2);
+
+  }
+  .input--tag--card{
+    background-color: transparent;
+    border:none;
+    outline:none;
+  }
+  .card:hover{
+    transition:0.7s;
+    opacity: 1;
+  }
+  .active{
+    opacity: 1;
+     transition:0.6s;
+     background-color: rgb(56, 191, 244);
+    border: 2px solid rgb(56, 191, 244);
+    cursor:pointer;
+  }
