@@ -1,10 +1,12 @@
 import React from 'react'
 import "./form.css";
-
+import SelectedImage from './UseContextImage';
 
 export default function FormComp() {
  
- 
+
+  const selectedImage=React.useContext(SelectedImage);
+ console.log(selectedImage.selectedImage)
   return (
     <div className='mt-10 h-[350px] w-[100%] flex position-absolute'>
   <div className='w-[46%] ml-[2%] border border-sky-500'>
@@ -16,7 +18,12 @@ export default function FormComp() {
   </div>
 
   
-  <div className='w-[46%] ml-[4%] border border-sky-500'></div>
+  <div className='relative w-[46%] ml-[4%] border border-sky-500'>
+
+    <img
+    src={selectedImage.selectedImage.image}
+    className=" top-0 left-0 absolute w-[96%] ml-[2%] h-[92%] mt-[2%]"  alt=""/>
+  </div>
   
  
 
