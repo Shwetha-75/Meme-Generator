@@ -45,6 +45,38 @@ const media=[
         id:nanoid(),
         image:'https://i.pinimg.com/originals/d5/6e/6a/d56e6aeb404962ed9087f699a38fdb04.jpg',
         status:false
+    },{
+        id:nanoid(),
+        image:'https://i.pinimg.com/originals/d5/6e/6a/d56e6aeb404962ed9087f699a38fdb04.jpg',
+        status:false
+    },{
+        id:nanoid(),
+        image:'https://i.pinimg.com/originals/d5/6e/6a/d56e6aeb404962ed9087f699a38fdb04.jpg',
+        status:false
+    },{
+        id:nanoid(),
+        image:'https://i.pinimg.com/originals/d5/6e/6a/d56e6aeb404962ed9087f699a38fdb04.jpg',
+        status:false
+    },{
+        id:nanoid(),
+        image:'https://i.pinimg.com/originals/d5/6e/6a/d56e6aeb404962ed9087f699a38fdb04.jpg',
+        status:false
+    },{
+        id:nanoid(),
+        image:'https://i.pinimg.com/originals/d5/6e/6a/d56e6aeb404962ed9087f699a38fdb04.jpg',
+        status:false
+    },{
+        id:nanoid(),
+        image:'https://i.pinimg.com/originals/d5/6e/6a/d56e6aeb404962ed9087f699a38fdb04.jpg',
+        status:false
+    },{
+        id:nanoid(),
+        image:'https://i.pinimg.com/originals/d5/6e/6a/d56e6aeb404962ed9087f699a38fdb04.jpg',
+        status:false
+    },{
+        id:nanoid(),
+        image:'https://i.pinimg.com/originals/d5/6e/6a/d56e6aeb404962ed9087f699a38fdb04.jpg',
+        status:false
     }
 
 ]
