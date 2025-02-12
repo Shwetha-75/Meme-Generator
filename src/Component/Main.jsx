@@ -7,6 +7,8 @@ import SelectedImage from './UseContextImage';
 
 
 export default function Main() {
+
+  
   // const handleOnClickImage=async(image)=>{
   //   // passing direct public url of the image 
   //   // but instead we should pass storage image url or the image stored in any storage devices like we have blob default 
