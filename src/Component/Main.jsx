@@ -4,7 +4,7 @@ import FormComp from './FormComp';
 import SelectedImage from './UseContextImage';
 // import { saveAs } from 'file-saver';
 // creating an use context to store the value of the image 
-
+// import Draggable from './DraggableComponent/Draggable';
 
 export default function Main() {
 
@@ -39,6 +39,8 @@ export default function Main() {
     <div className='w-[90%] ml-[5%]'>
         <Card/>
         <FormComp/>
+
+         {/* <Draggable/> */}
        
     </div>
     </SelectedImage.Provider >
