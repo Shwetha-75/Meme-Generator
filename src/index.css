@@ -4,3 +4,69 @@
 body{
     background-color: #112132; 
 }
+
+
+/* ------------------- */
+.outer-border {
+    position: relative;
+    border: none;
+    width: 60%;
+    height: 60vh;
+    margin-left: 20%;
+    overflow: hidden;
+}
+
+.container {
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    border: none;
+    top: 100px;
+    left: 0;
+    
+    cursor: grab;
+}
+
+.container:active {
+    cursor: grabbing;
+}
+
+.border-handle {
+    position: absolute;
+    background: transparent;
+
+}
+
+/* Top border */
+.top { top: 0px; left: 0; width: 100%; height: 1px; cursor: ns-resize; background-color: rgb(255, 255, 255);}
+
+/* Bottom border */
+.bottom { bottom: 0px; left: 0; width: 100%; height: 1px; cursor: ns-resize; background-color: rgb(255, 255, 255);}
+
+/* Left border */
+.left { left: 0px; top: 0; height: 100%; width: 1px; cursor: ew-resize; background-color: rgb(255, 255, 255);}
+
+/* Right border */
+.right { right: 0px; top: 0; height: 100%; width: 1px; cursor: ew-resize; background-color: rgb(255, 255, 255);}
+ input{
+    width:100%;
+    height:100%;
+    outline:none;
+    border:none;
+    color:white;
+    font-size: 2rem;
+    background-color: transparent;
+ }
+
+ .image--tag--meme--active{
+    transition: 1s;
+    opacity: 0.2;
+ }
+
+ .image--tag--meme--deactive{
+    transition:1s;
+    opacity:1;
+ }
+ .text-area--tag{
+   font-size:2rem;
+ }
